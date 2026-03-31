@@ -35,11 +35,6 @@ SELECT
 DISTINCT(category)
 FROM bronze.construction
 
--- Data Standardization & Consistency for contractor column
-SELECT
-DISTINCT(contractor)
-FROM bronze.construction
-
 -- Check for Null Vales for category column
 -- Expectation: No Results
 SELECT
@@ -47,6 +42,11 @@ DISTINCT(category)
 FROM bronze.construction
 WHERE category IS NULL
 
+-- Data Standardization & Consistency for contractor column
+SELECT
+DISTINCT(contractor)
+FROM bronze.construction
+
 -- Check for Null Vales for contractor column
 -- Expectation: No Results
 SELECT
@@ -54,35 +54,30 @@ DISTINCT(contractor)
 FROM bronze.construction
 WHERE contractor IS NULL
 
--- Check for Null Vales for contractor column
--- Expectation: No Results
-SELECT
-project_id,
-starting_date,
-plan_end_date,
-actual_end_date
-FROM bronze.construction
-WHERE contractor IS NULL
-
-
 -- Check for Null Values in starting_date after conversion to date data type (dd/mm/yyy) column
 -- Expectation: No Results
 SELECT 
-TRY_CONVERT(DATE, starting_date, 103) as starting_date
+starting_date
 FROM bronze.construction
 WHERE TRY_CONVERT(DATE, starting_date,103) IS NULL
 
 -- Check for Null Values in plan_end_date after conversion to date data type (dd/mm/yyy) column
 -- Expectation: No Results
 SELECT 
-TRY_CONVERT(DATE, plan_end_date, 103) as plan_end_date
+plan_end_date
 FROM bronze.construction
 WHERE TRY_CONVERT(DATE, plan_end_date,103) IS NULL
 
 -- Check for Null Values in actual_end_date after conversion to date data type (dd/mm/yyy) column
 -- Expectation: No Results
 SELECT 
-TRY_CONVERT(DATE, actual_end_date, 103) as actual_end_date
+actual_end_date,
 FROM bronze.construction
-WHERE TRY_CONVERT(DATE, actual_end_date,103) IS NULL
+WHERE actual_end_date != TRY_CONVERT(DATE, actual_end_date, 103)
 
+-- Check for Value that is Non BIGINT & Null Values for budget column
+-- Expectation: No Results
+SELECT 
+budget
+FROM bronze.construction
+WHERE TRY_CAST(budget AS BIGINT) IS NULL
