@@ -17,41 +17,41 @@ Usage Notes:
 ===============================================================================
 */
 
-
 -- ====================================================================
 -- Checking 'silver.construction'
 -- ====================================================================
+
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No Results
 SELECT 
     project_id,
     COUNT(*)
-FROM bronze.construction
+FROM silver.construction
 GROUP BY project_id
 HAVING COUNT(*) > 1 OR project_id IS NULL;
 
 -- Data Standardization & Consistency for category column
 SELECT
 DISTINCT(category)
-FROM bronze.construction
+FROM silver.construction
 
 -- Check for Null Vales for category column
 -- Expectation: No Results
 SELECT
 DISTINCT(category)
-FROM bronze.construction
+FROM silver.construction
 WHERE category IS NULL
 
 -- Data Standardization & Consistency for contractor column
 SELECT
 DISTINCT(contractor)
-FROM bronze.construction
+FROM silver.construction
 
 -- Check for Null Vales for contractor column
 -- Expectation: No Results
 SELECT
 DISTINCT(contractor)
-FROM bronze.construction
+FROM silver.construction
 WHERE contractor IS NULL
 
 -- Check for Null Values in starting_date after conversion to date data type (dd/mm/yyy) column
@@ -80,4 +80,25 @@ WHERE actual_end_date != TRY_CONVERT(DATE, actual_end_date, 103)
 SELECT 
 budget
 FROM bronze.construction
-WHERE TRY_CAST(budget AS BIGINT) IS NULL
+WHERE TRY_CAST(COALESCE(COALESCE(silver.extract_numeric(budget), silver.extract_numeric(actual_cost)),0) AS BIGINT) IS NULL
+
+-- Check for Value that is Non BIGINT & Null Values for actual_cost column
+-- Expectation: No Results
+SELECT 
+actual_cost
+FROM bronze.construction
+WHERE TRY_CAST(COALESCE(COALESCE(silver.extract_numeric(actual_cost), silver.extract_numeric(budget)),0) AS BIGINT) IS NULL
+
+-- Check for Value that is Non BIGINT & Null Values for actual_cost column
+-- Expectation: No Results
+SELECT 
+actual_cost
+FROM bronze.construction
+WHERE TRY_CAST(COALESCE(COALESCE(silver.extract_numeric(actual_cost), silver.extract_numeric(budget)),0) AS BIGINT) IS NULL
+
+-- Check for Value that is Null
+-- Expectation: No Results
+SELECT
+delay_days
+FROM silver.construction
+WHERE delay_days IS NULL
