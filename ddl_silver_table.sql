@@ -24,3 +24,22 @@ CREATE TABLE silver.construction (
     actual_cost INT,
     delay_days INT
 );
+
+
+IF OBJECT_ID('silver.construction_test', 'U') IS NOT NULL
+    DROP TABLE silver.construction_test;
+GO
+
+CREATE TABLE silver.construction_test (
+    project_id NVARCHAR(50),
+    category NVARCHAR(50),
+    contractor NVARCHAR(50),
+    starting_date DATE,
+    plan_end_date DATE,
+    actual_end_date DATE,
+    budget INT,
+    actual_cost INT,
+    delay_days INT,
+    cost_overrun_saving BIGINT,
+    cost_overrun_saving_percentage FLOAT
+);
