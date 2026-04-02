@@ -23,6 +23,5 @@ BEGIN
         SET @input = STUFF(@input, @alphabetIndex, 1, '');
         SET @alphabetIndex = PATINDEX('%[^0-9]%', @input);
     END;
-    SET @input = TRIM(@input)
-    RETURN @input;
+    RETURN TRIM(@input);
 END;
