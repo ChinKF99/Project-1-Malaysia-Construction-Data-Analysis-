@@ -1,3 +1,15 @@
+# Dashboard  
+<img width="1398" height="882" alt="image" src="https://github.com/user-attachments/assets/5a1bc5cb-98ea-427d-8909-33536ea0449f" />
+<img width="1413" height="882" alt="image" src="https://github.com/user-attachments/assets/2b273ad1-87fa-4b9a-989f-43e84d525a35" />
+<img width="1518" height="880" alt="image" src="https://github.com/user-attachments/assets/748d2c7a-4297-4eda-a7ff-bcf5ac9e1ed3" />
+
+## Introduction  
+This construction analysis dashboard was created to help identify best performance contractor & project category.
+
+## Dashboard File  
+My final dashboard file is in [dashboard.pbix](dashboard.pbix)
+
+
 Delay & Cost Analysis
 -Does Delay Project cost more? 
 Insights:
@@ -24,13 +36,5 @@ Total Budget
 Total Actual Cost
 Avg Cost Overrun %
 Total Delayed Projects
-
-Budget vs Actual (Bar chart)
-Delay by Contractor (Bar)
-Cost Overrun % by Category
-Scatter Plot:
-👉 Delay_Days vs Cost_Overrun (🔥 very important)
-Trend over time (Start_Date)
-
 
 Example of Insights:Projects with delays exceeding 60 days show an average cost overrun of 18%, indicating a strong relationship between schedule slippage and financial performance.”
