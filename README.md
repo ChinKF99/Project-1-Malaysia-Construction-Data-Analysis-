@@ -17,8 +17,8 @@ To understand relationship between cost & time and performance of respective con
 
 ### Contractor Analysis
 1. Which Contractor has the highest Cost Overrun
-2. Which Contractor has most delays
-3. Which Contractor perform best overalls
+2. Which Contractor has most delay
+3. Which Contractor perform best overall
 
 ### Project Category Analysis
 1. Which category has the most delays
