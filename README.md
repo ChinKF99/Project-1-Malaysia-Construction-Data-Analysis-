@@ -51,4 +51,4 @@ The dataset use for this project is obtained from Chat GPT (AI) [Construction Pr
 -From the scatter chart, Infrastructure project has the best cost efficiency and came by second in term of on time completion just after Residential. In contrast, Industrial project has the worst performance in both cost and time.  
 
 ## Conclusion
-As a individual who has interest in data related skillsets/jobs, I embarked on this project to apply what I've learned throughout the months. E.g. validate original dataset, create new column metrics and ensure data standardizaiton/consistency. I hope this project serves as a strong starting portfolio for my data adventure.  
+As a individual who has interest in data related skillsets/jobs, I embarked on this project to apply what I've learned throughout the months. E.g. validate original dataset, create new column metrics and ensure data standardization/consistency. I hope this project serves as a strong starting portfolio for my data adventure.  
