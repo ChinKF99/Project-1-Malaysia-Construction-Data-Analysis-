@@ -9,6 +9,24 @@ This construction analysis dashboard was created to help identify best performan
 ## Dashboard File  
 My final dashboard file is in [dashboard.pbix](dashboard.pbix)
 
+## Question to Analyze and why
+To understand contractor and project category performance, I ask the following:
+
+### Delay Cost Analysis
+1. Does delayed project cost more?
+
+### Contractor Analysis
+1. Which Contractor has the highest Cost Overrun
+2. Which Contractor has most delays
+3. Which Contractor perform best overalls
+
+### Project Category Analysis
+1. Which category has the most delays
+2. Which project has the worst cost control (Average/Total cost overrun)
+
+Note: All data under with unknown value in Category & Contractor Column is excluded.
+
+
 
 Delay & Cost Analysis
 -Does Delay Project cost more? 
