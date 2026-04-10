@@ -28,14 +28,14 @@ Note: Data with unknown value in Category & Contractor Column is excluded to pro
 
 After analyzing the above questions, stakeholders can act accordingly. E.g. carry out investigation or studies on worst performance contractor and category to streamline/optimize the overall performance and efficiency.
 
-## SQL Skill Used
+## SQL Skills Used
 - Adopt Medalion Architecture (Bronze, Silver, Gold) for Data Architecture
 - Data Cleansing
 - Data Standardization
 - Data Conversion
 - Data Enrichment
 
-## Power BI Used
+## Power BI Skills Used
 - Bar Chart
 - line Chart
 - Card
