@@ -24,7 +24,7 @@ To understand relationship between cost & time and performance of respective con
 1. Which category has the most delay
 2. Which category has the worst cost control (Average/Total cost overrun)
 
-Note: All data under with unknown value in Category & Contractor Column is excluded.
+Note: For data with unknown value in Category & Contractor Column is excluded.
 
 After analyzing the above questions, stakeholders can act accordingly. E.g. carry out investigation or studies on worst performance contractor and category to streamline/optimize the overall performance and efficiency.
 
