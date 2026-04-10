@@ -4,7 +4,7 @@
 <img width="1518" height="880" alt="image" src="https://github.com/user-attachments/assets/748d2c7a-4297-4eda-a7ff-bcf5ac9e1ed3" />
 
 ## Introduction  
-This construction analysis dashboard was created to help identify best performance contractor & project category.
+This construction analysis dashboard was created to help identify relationship between cost & time and performance of contractor & project category.
 
 ## Dashboard File  
 My final dashboard file is in [dashboard.pbix](dashboard.pbix)
