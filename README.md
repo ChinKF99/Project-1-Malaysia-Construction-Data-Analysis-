@@ -10,7 +10,7 @@ This construction analysis dashboard was created to help identify relationship b
 My final dashboard file is in [dashboard.pbix](dashboard.pbix)
 
 ## Question to Analyze and why
-To understand contractor and project category performance, I ask the following:
+To understand relationship between cost & time and performance of respective contractor & category, I ask the following:
 
 ### Delay Cost Analysis
 1. Does delayed project cost more?
