@@ -1,5 +1,5 @@
 # Dashboard  
-<img width="1398" height="882" alt="image" src="https://github.com/user-attachments/assets/5a1bc5cb-98ea-427d-8909-33536ea0449f" />
+<img width="1163" height="712" alt="image" src="https://github.com/user-attachments/assets/c92af576-5fa0-447b-b76c-9785057fe170" />
 <img width="1413" height="882" alt="image" src="https://github.com/user-attachments/assets/2b273ad1-87fa-4b9a-989f-43e84d525a35" />
 <img width="1518" height="880" alt="image" src="https://github.com/user-attachments/assets/748d2c7a-4297-4eda-a7ff-bcf5ac9e1ed3" />
 
