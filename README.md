@@ -21,8 +21,8 @@ To understand relationship between cost & time and performance of respective con
 3. Which Contractor perform best overall
 
 ### Project Category Analysis
-1. Which category has the most delays
-2. Which project has the worst cost control (Average/Total cost overrun)
+1. Which category has the most delay
+2. Which category has the worst cost control (Average/Total cost overrun)
 
 Note: All data under with unknown value in Category & Contractor Column is excluded.
 
