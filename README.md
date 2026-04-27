@@ -26,11 +26,13 @@ To understand relationship between cost & time and performance of respective con
 
 Note: Data with unknown value in Category & Contractor Column is excluded to produce an accurate result.
 
-## ⚙️ SQL Skill Used
+## ⚙️ Tools & Skills Used
+
+### SQL
 - Adopt Medalion Architecture (Bronze, Silver, Gold) for Data Architecture  
 - Data cleaning, transformation, and enrichment  
 
-## ⚙️ Power BI Used
+### Power BI
 - Scatter plot for relationship analysis  
 - Bar and line charts for comparison  
 - KPI cards  
@@ -56,5 +58,5 @@ Synthetic dataset simulating real-world construction project data [Construction 
 -Focus improvement efforts on underperforming project categories.  
 -Implement stricter project controls for high-risk categories (e.g., Industrial).  
 
-## Conclusion
+## ✅ Conclusion
 This project demonstrates the use of data analysis to uncover relationships between time and cost in construction projects. It highlights how delay management and contractor performance play a critical role in overall project success.  
