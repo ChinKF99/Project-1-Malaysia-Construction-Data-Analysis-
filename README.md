@@ -1,9 +1,12 @@
 # 📊 Dashboard  
 <img width="1333" height="750" alt="image" src="https://github.com/user-attachments/assets/daeb95e2-7d9e-417b-9d75-3fc7d72cba5d" />  
+
   
 <img width="1361" height="765" alt="image" src="https://github.com/user-attachments/assets/d81f384b-db1f-4755-82d9-3dd50b752d56" />  
+
   
 <img width="1342" height="737" alt="image" src="https://github.com/user-attachments/assets/0ba12665-5bb2-4b05-9072-e3b78fcfaba5" />
+
 
 ## 📌 Introduction/Project Overview  
 This project analyzes construction project data to evaluate the relationship between project delays, cost overruns, contractor performance, and project categories. The goal is to identify key risk factors and improve project efficiency.
