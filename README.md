@@ -49,7 +49,7 @@ Synthetic dataset simulating real-world construction project data [Construction 
 
 ## 🔍 Insights  
 - Project delays do not always result in cost overruns; however, longer delays significantly increase financial risk.  
-- Projects delayed by more than 150 days show a 51% higher likelihood of cost overrun.  
+- Projects delayed between 50 to 150 days show significatn risk of cost overrun.  
 - Some contractors consistently experience higher delays and cost overruns.  
 - Others demonstrate better cost control and schedule management.  
 - Infrastructure projects show better cost efficiency, while Industrial projects perform worst in both cost and time.
